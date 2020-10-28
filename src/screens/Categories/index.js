@@ -1,0 +1,11 @@
+import React from 'react';
+import { Container, Typography } from '@material-ui/core';
+
+const Categories = () => (
+    <Container component='main' maxWidth='xl'>
+        <Typography variant='h3' component='h4'>Categories</Typography>
+        <Typography variant='h5' component='h5'>Coming soon...</Typography>
+    </Container>
+);
+
+export default Categories;
